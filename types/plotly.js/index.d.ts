@@ -528,6 +528,7 @@ export interface PlotData {
 	fillcolor: string;
 	legendgroup: string;
 	name: string;
+    showlegend: boolean,
 	connectgaps: boolean;
 	visible: boolean | 'legendonly';
 	transforms: DataTransform[];
